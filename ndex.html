@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Api</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="fetchAPI()">
+    <div>
+        <button id="getUser">Load new User</button>
+    </div> 
+    <div id="image_section">
+        <img src="" alt="">
+    </div>
+    <div id="displayArea">
+        <div id="fName"></div>
+        <button id="age">Age</button>
+        <button id="email">Email</button>
+        <button id="phone">Phone Number</button>
+    </div>
+    <section id="addl-section">
+        <h3>Additional Info</h3>
+        <div id="addlInfo"></div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
